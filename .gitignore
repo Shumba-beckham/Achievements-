@@ -1,0 +1,25 @@
+import java.util.Scanner;
+Public class StudentAchievement {
+Public static void main(final String args[]) {
+Scanner scanner = new Scanner(System.in);
+//Prompt the teacher to input the marks of the student System.out.print("Enter the marks of the student: ");
+int marks = scanner.nextInt();
+String achievementLevel;
+// Calculates level of achievement based on marks
+if (marks >= 90) {
+level of achievement = "Level 7 - Outstanding Achievement"; } else if (marks >= 80) {
+Achievement Level: "Level 6 — Excellent Achievement".
+Else if (marks> = 70)
+achievementLevel = "Level 5 - Very Good Achievement";
+) else if (marks >= 60) {
+Achievement level: "Level 4-Good Achievement".
+} else if (marks >= 50) {
+achievementLevel = "Level 3 - Satisfactory Achievement";
+} else if (marks >= 40) {
+achievementLevel "Level 2 - Pass
+} else {
+achievementLevel = "Level 1 - Fail";
+}
+// Display the level of achievement
+print("Achievement: " + achievementLevel);scanner.close();
+}
